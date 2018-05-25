@@ -14,3 +14,4 @@ for bucket in s3.buckets.all():
             if bucket.name != bucketTest:
                 bucketTest = bucket.name
                 print("S3 Bucket: " + bucket.name +" has Group Access.  Potential Access Control Concern.")
+                print("")
